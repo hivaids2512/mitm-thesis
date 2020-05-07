@@ -1,0 +1,50 @@
+{
+  "name": "node-server-template",
+  "version": "1.0.0",
+  "description": "Node Js Server Tempalte",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js",
+    "reinstall": "rm -rf node_modules && npm install",
+    "test": "NODE_ENV=test nyc report mocha --recursive --timeout 15000000",
+    "prod": "NODE_ENV=production forever start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:blueboxtechs/middleware.git"
+  },
+  "author": "Quy Vu",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.11.0",
+    "nyc": "^11.6.0"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "cors": "^2.8.4",
+    "csv-load-sync": "^1.0.0",
+    "csv-parser": "^1.12.0",
+    "csv-writer": "^1.0.0",
+    "download-file": "^0.1.5",
+    "excel": "^0.1.7",
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^7.4.2",
+    "line-input-stream": "^1.0.1",
+    "mocha": "^3.5.0",
+    "moment": "^2.20.1",
+    "mongoose": "^4.11.11",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.1.0",
+    "pg": "^7.2.0",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.87.0",
+    "winston": "^2.3.1"
+  }
+}

@@ -1,0 +1,125 @@
+#invoice-POS{
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding:2mm;
+  width: 110mm;
+  background: #FFF;
+//   height: 200mm;
+  ::selection {
+     background: #f31544;
+      color: #FFF;
+ }
+  ::moz-selection {
+     background: #f31544;
+      color: #FFF;
+ }
+  h1{
+      font-size: 1.5em;
+      color: black;
+ }
+  h2{
+     font-size: 1.8em;
+ }
+  h3{
+      font-size: 1.2em;
+      font-weight: 300;
+      line-height: 2em;
+ }
+  p{
+      font-size: 1.1em;
+      color: black;
+      line-height: 1.2em;
+ }
+  #top, #mid,#bot{
+     /* Targets all id with 'col-' */
+      border-bottom: 1px solid #EEE;
+ }
+  #top{
+     min-height: 100px;
+ }
+  #mid{
+     min-height: 80px;
+     margin-bottom: 5mm;
+ }
+  #bot{
+      min-height: 50px;
+ }
+  #top .logo{
+      //float: left;
+      height: 50px;
+      width: 60px;
+      background: url('../public/img/logo.jpg') no-repeat;
+      background-size: 60px 50px;
+      margin: 10px;
+ }
+  .clientlogo{
+      float: left;
+      height: 60px;
+      width: 60px;
+      background: url('../public/img/logo.png') no-repeat;
+      background-size: 60px 60px;
+      border-radius: 50px;
+ }
+  .info{
+      display: block;
+      //float:left;
+      margin-left: 0;
+ }
+  .title{
+      float: right;
+ }
+  .title p{
+     text-align: right;
+ }
+  table{
+      width: 100%;
+      border-collapse: collapse;
+ }
+  td{
+      //padding: 5px 0 5px 15px;
+      //border: 1px solid #EEE 
+ }
+  .tabletitle{
+      //padding: 5px;
+      font-size: .5em;
+      background: #EEE;
+ }
+  .service{
+     border-bottom: 1px solid #EEE;
+ }
+  .item{
+     width: 17mm;
+ }
+ .class{
+    width: 10mm;
+}
+  .itemtext{
+     font-size: .5em;
+ }
+  #legalcopy{
+      margin-top: 5mm;
+ }
+  .legal {
+      text-align: center;
+ }
+  .receipt-p {
+      margin-bottom: 7px !important;
+ }
+ .receipt-title {
+   margin: 10px;
+   font-size: initial;
+ }
+ .loader-overlay {
+   position:relative;
+   margin:0 auto;
+   clear:left;
+   height:auto;
+   z-index: 0;
+   text-align:center;/* Add This*/
+   width: 0px;
+ }
+}
+
+.print-button {
+    margin-left: 50mm;
+    margin-top: 10px;
+ }

@@ -1,0 +1,6 @@
+{
+  "name": "CustomPopover",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CustomPopover.js"
+}
