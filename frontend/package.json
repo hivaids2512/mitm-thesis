@@ -46,7 +46,7 @@
     "is-iso-date": "0.0.1",
     "joi": "^13.3.0",
     "lodash": "^4.17.10",
-    "moment": "^2.22.1",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.2",
     "react": "15.6.2",
     "react-chartjs-2": "2.7.0",
