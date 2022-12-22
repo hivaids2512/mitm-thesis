@@ -34,7 +34,7 @@
     "express": "^4.15.4",
     "forever": "^0.15.3",
     "glob": "^7.1.2",
-    "jsonwebtoken": "^7.4.2",
+    "jsonwebtoken": "^9.0.0",
     "line-input-stream": "^1.0.1",
     "mocha": "^3.5.0",
     "moment": "^2.20.1",
